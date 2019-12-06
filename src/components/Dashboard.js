@@ -24,8 +24,8 @@ export const Dashboard = (props) => {
     return (
         
         <div>
-            <button onClick={ballHandler}>Ball</button>
-            <button onClick={strikeHandler}>Strike</button>
+            <button onClick={ballHandler} data-testid='ballBtn'>Ball</button>
+            <button onClick={strikeHandler} data-testid='strikeBtn'>Strike</button>
             
             <button>Foul</button>
             <button>Hit</button>
